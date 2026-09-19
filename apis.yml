@@ -1,17 +1,42 @@
 aid: airgram
 name: Airgram
-description: 'Airgram is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Airgram was a Singapore-headquartered AI meeting assistant founded in 2020 by Ryan Zhang. Its
+  web app joined Zoom, Google Meet and Microsoft Teams calls to record and transcribe them in real
+  time, then produced collaborative notes, agendas, action items, AI summaries and shareable clips,
+  with exports to Notion, Slack and HubSpot and an automation connector listed on Zapier. It sold
+  the product to end users on free and paid plans and never published a public developer program:
+  no API reference, OpenAPI, SDK, webhook catalog or developer portal was ever offered, and the
+  Zapier connector was the only integration surface. In early 2024 Airgram merged into Notta
+  (notta.ai), the AI transcription company, and the Airgram service was discontinued from
+  8 March 2024; Notta hosts a "Airgram Has Joined Notta" welcome page and the LinkedIn company
+  page is renamed "Airgram (merged into Notta)". No first-party host survives — airgram.io and
+  www.airgram.io have no DNS record and airgram.com 301s into the dead www.airgram.io — so no
+  Website pointer is wired. This record is retained as an honest zero: an end-user software
+  company, absorbed into an acquirer, with no API surface to profile.
 url: https://raw.githubusercontent.com/api-evangelist/airgram/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
 x-tier-reason: harvest
+x-status: defunct
+x-status-detail: >-
+  Merged into Notta (notta.ai) in early 2024; the Airgram service was discontinued from 8 March
+  2024 and Notta's welcome-airgram page is the only first-party statement that remains. airgram.io
+  and www.airgram.io no longer resolve and airgram.com 301s to www.airgram.io, so no Website
+  pointer is wired; the Zapier connector listing (zapier.com/apps/airgram) now 404s. The EquityZen
+  secondary-market listing this record was harvested from answers 403 to non-browser clients.
 specificationVersion: '0.20'
 created: '2026-09-19'
 modified: '2026-09-19'
 tags:
 - Company
+- Meetings
+- Transcription
+- Meeting Notes
+- Productivity
+- Artificial Intelligence
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +44,36 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
-- type: Website
+- type: LinkedIn
+  url: https://www.linkedin.com/company/airgram
+- type: Successor
+  url: https://www.notta.ai/en/welcome-airgram
+- type: SecondaryMarket
   url: https://equityzen.com/company/airgram
+x-enrichment:
+  date: '2026-09-19'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: defunct
+  detail: >-
+    Airgram was an end-user AI meeting-notes app with no developer program that merged into Notta
+    and was discontinued from 8 March 2024; airgram.io and www.airgram.io have no DNS record,
+    airgram.com 301s into that dead host, and the only surviving first-party statement is Notta's
+    welcome-airgram page.
+  evidence:
+  - url: https://airgram.io/
+    status: 0
+  - url: https://www.airgram.io/
+    status: 0
+  - url: https://airgram.com/
+    status: 301
+  - url: https://www.notta.ai/en/welcome-airgram
+    status: 200
+  - url: https://zapier.com/apps/airgram/integrations
+    status: 404
+  - url: https://equityzen.com/company/airgram
+    status: 403
+  checked: '2026-09-19'
