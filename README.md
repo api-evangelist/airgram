@@ -64,5 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Airgram is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/airgram
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
+
+Airgram was a Singapore-headquartered AI meeting assistant founded in 2020 by Ryan Zhang. Its web app joined Zoom, Google Meet and Microsoft Teams calls to record and transcribe them in real time, then produced collaborative notes, agendas, action items, AI summaries and shareable clips, with exports to Notion, Slack and HubSpot and an automation connector listed on Zapier. It sold the product to end users on free and paid plans and never published a public developer program: no API reference, OpenAPI, SDK, webhook catalog or developer portal was ever offered, and the Zapier connector was the only integration surface. In early 2024 Airgram merged into Notta (notta.ai), the AI transcription company, and the Airgram service was discontinued from 8 March 2024; Notta hosts a "Airgram Has Joined Notta" welcome page and the LinkedIn company page is renamed "Airgram (merged into Notta)". No first-party host survives — airgram.io and www.airgram.io have no DNS record and airgram.com 301s into the dead www.airgram.io — so no Website pointer is wired. This record is retained as an honest zero: an end-user software company, absorbed into an acquirer, with no API surface to profile.
+
+**Areas:** Company · Meetings · Transcription · Meeting Notes · Productivity · Artificial Intelligence · Defunct
+
+## Airgram on APIs.io (historical record)
+
+Everything profiled for Airgram is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/airgram/](https://apis.io/providers/airgram/)** — or go straight to one of the APIs or properties below.
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Airgram: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/airgram/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
